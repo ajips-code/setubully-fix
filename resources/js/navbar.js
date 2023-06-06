@@ -1,4 +1,4 @@
-const navBar = document.getElementById("navbar");
+const navBar = document.querySelector(".navbar");
 const hamburgerBtn = document.querySelector(".navbar-toggler");
 hamburgerBtn.addEventListener("click", function () {
     navBar.classList.toggle("active");

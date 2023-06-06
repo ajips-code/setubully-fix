@@ -13,7 +13,7 @@
             <div class="col-12">
                 <div class="container mt-4 text-center ">
                     <p class="fs-5 px-sm-5"> {{ config('web_config')['WEB_TITLE'] }} merupakan tempat bagi kamu yang menjadi
-                        bagian siswa/i {{ config('web_config')['FOOTER_TEXT_DASHBOARD'] }} untuk memberi kritik, saran,
+                        bagian mahasiswa/i {{ config('web_config')['FOOTER_TEXT_DASHBOARD'] }} untuk memberi kritik, saran,
                         ataupun aspirasi selama menjadi siswa/i di sekolah ini. Dengan dibuatnya aplikasi
                         {{ config('web_config')['WEB_TITLE'] }}, kami berharap
                         bahwa kamu akan menjadi lebih berani dan terbuka kepada sekolah untuk mengatasi
@@ -24,7 +24,7 @@
                     <p class="fs-5 px-sm-5">Karena kami melihat banyak sekali tindakan-tindakan yang tidak mencerminkan
                         seorang siswa/i sekolah seperti pemalakan, pembulian, pencurian dan masih banyak lagi yang terjadi
                         di sekolah ini, dengan adanya {{ config('web_config')['WEB_TITLE'] }} kami ingin membantu siswa/i
-                        yang menjadi korban untuk melaporkan masalah ini ke guru ataupun staff yang ada di sekolah ini
+                        yang menjadi korban untuk melaporkan masalah ini ke dosen ataupun staff yang ada di kampus ini
                         melalui
                         {{ config('web_config')['WEB_TITLE'] }}. Jadi kami bisa
                         sedikit demi sedikit memberantas tindakan-tindakan seperti itu. Selain itu

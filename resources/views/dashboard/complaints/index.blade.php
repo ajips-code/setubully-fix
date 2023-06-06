@@ -39,8 +39,8 @@
                 </div>
             </div>
         </div>
-
-        <section class="section">
+    
+        <section class="section mt-4">
             <div class="card">
                 <div class="card-header">
                     <h3>Keluhan</h3>
