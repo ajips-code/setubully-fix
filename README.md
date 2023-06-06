@@ -9,7 +9,9 @@
 
 <h2 id="tentang">🤔 Apa itu Setubullu?</h2>
 
-Confess adalah aplikasi pelaporan pengaduan sekolah yang memungkinkan siswa/siswi untuk melaporkan masalah, keluhan, saran, dan kritik mereka secara online.
+Setubully adalah Sistem Pengaduan Online Bullying di IST Akprind Yogyakarta
+Membuka Suara: Mendorong Pelaporan Bullying dan Membangun Ruang Aman bagi Mahasiswa melalui Pendekatan Whistleblowing System dengan Website Setubully
+
 
 <h2 id="fitur">🤨 Fitur apa saja yang tersedia di Confess?</h2>
 
@@ -146,4 +148,4 @@ Kamu bisa mendukung aku di platform Trakteer! Dukungan kamu akan sangat berarti.
 
 <h2 id="pembuat">🧍 Author</h2>
 
-<p>Confess dibuat oleh <a href="https://instagram.com/alfianchii">Alfian</a> dan <a href="https://instagram.com/nata_ardhana">Surya</a>.</p>
+<p>Confess dibuat oleh <a href="https://instagram.com/mdjiepr">Alfian</a> dan <a href="https://instagram.com/mdjiepr">Surya</a>.</p>
