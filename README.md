@@ -148,4 +148,4 @@ Kamu bisa mendukung aku di platform Trakteer! Dukungan kamu akan sangat berarti.
 
 <h2 id="pembuat">🧍 Author</h2>
 
-<p>Confess dibuat oleh <a href="https://instagram.com/mdjiepr">Alfian</a> dan <a href="https://instagram.com/mdjiepr">Surya</a>.</p>
+<p>Confess dibuat oleh <a href="https://instagram.com/mdjiepr">Adji</a> dan <a href="https://instagram.com/mdjiepr">Pratama</a>.</p>
