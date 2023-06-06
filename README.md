@@ -1,6 +1,6 @@
 <h1 align="center">Selamat datang di Setubully! 👋</h1>
 
-![Landing Page](https://github.com/alfianchii/confess/blob/main/public/images/Confess-Welcome.png?raw=true)
+![Landing Page](https://github.com/ajips-code/setubully-fix/blob/785b749a272314d033893e1438fe38fae0e8a9b5/public/images/setubully-fix1-light.JPG)
 
 [![All Contributors](https://img.shields.io/github/contributors/alfianchii/confess)](https://github.com/alfianchii/confess/graphs/contributors)
 ![GitHub last commit](https://img.shields.io/github/last-commit/alfianchii/confess)
