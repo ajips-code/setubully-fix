@@ -1,6 +1,6 @@
 <h1 align="center">Selamat datang di Setubully! 👋</h1>
 
-![Landing Page](https://github.com/alfianchii/confess/blob/main/public/images/Confess-Welcome.png?raw=true)
+![Landing Page](https://github.com/ajips-code/setubully-fix/blob/785b749a272314d033893e1438fe38fae0e8a9b5/public/images/setubully-fix1-light.JPG)
 
 [![All Contributors](https://img.shields.io/github/contributors/alfianchii/confess)](https://github.com/alfianchii/confess/graphs/contributors)
 ![GitHub last commit](https://img.shields.io/github/last-commit/alfianchii/confess)
@@ -9,7 +9,9 @@
 
 <h2 id="tentang">🤔 Apa itu Setubullu?</h2>
 
-Confess adalah aplikasi pelaporan pengaduan sekolah yang memungkinkan siswa/siswi untuk melaporkan masalah, keluhan, saran, dan kritik mereka secara online.
+Setubully adalah Sistem Pengaduan Online Bullying di IST Akprind Yogyakarta
+Membuka Suara: Mendorong Pelaporan Bullying dan Membangun Ruang Aman bagi Mahasiswa melalui Pendekatan Whistleblowing System dengan Website Setubully
+
 
 <h2 id="fitur">🤨 Fitur apa saja yang tersedia di Confess?</h2>
 
@@ -146,4 +148,4 @@ Kamu bisa mendukung aku di platform Trakteer! Dukungan kamu akan sangat berarti.
 
 <h2 id="pembuat">🧍 Author</h2>
 
-<p>Confess dibuat oleh <a href="https://instagram.com/alfianchii">Alfian</a> dan <a href="https://instagram.com/nata_ardhana">Surya</a>.</p>
+<p>Confess dibuat oleh <a href="https://instagram.com/mdjiepr">Adji</a> dan <a href="https://instagram.com/mdjiepr">Pratama</a>.</p>
