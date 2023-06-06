@@ -6,7 +6,7 @@
             <div class="col-6 mb-3 header-about bg-home w-100 pb-5">
                 <div class="container pt-2 pt-sm-5">
                     <div class="row d-flex align-items-center text-sm-start text-center">
-                        <div class="col-md-6 col-12" style="z-index: 10">
+                        <div class="col-md-6 col-12 mt-4" style="z-index: 10">
                             <h1 class="text-white fw-bold">{!! config('web_config')['HERO_TEXT_HEADER'] !!}</h1>
                             <p class="text-white fs-4 pt-3 pt-sm-4 w-100 ">
                                 {!! config('web_config')['HERO_TEXT_DESCRIPTION'] !!}
@@ -86,7 +86,7 @@
                     <div class="col-12 jumlah-lapor mt-5 text-center">
                         <h3 class="text-white mt-4 fs-2">Jumlah Laporan</h3><br>
                         <p class="text-white fw-bold fs-1 mt-2"> {{ $complaintsCount }} </p><br>
-                        <p class="text-white fw-bold fs-3 ">#JANGANTAKUTLAPOR!</p>
+                        <p class="text-white fw-bold fs-3 ">AYO LAPOR TERUS YAH !</p>
                     </div>
                 </div>
                 <div class="container">
