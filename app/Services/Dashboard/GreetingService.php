@@ -13,11 +13,11 @@ class GreetingService
         $hour = $currentTime->hour;
 
         if ($hour >= 5 && $hour <= 13) {
-            $greeting = 'Selamat pagi';
+            $greeting = 'Selamat Pagi';
         } elseif ($hour >= 14 && $hour <= 17) {
-            $greeting = 'Selamat sore';
+            $greeting = 'Selamat Sore';
         } else {
-            $greeting = 'Selamat malam';
+            $greeting = 'Selamat Salam';
         }
 
         return $greeting;

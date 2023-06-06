@@ -61,7 +61,7 @@
                                     <label for="name" class="form-label">Nama</label>
                                     <div class="position-relative">
                                         <input @if ($user->level != 'admin') @readonly(true) @endif type="text"
-                                            class="form-control py-2" placeholder="e.g. Muhammad Alfian" id="name"
+                                            class="form-control py-2" placeholder="e.g. Muhammad Adji" id="name"
                                             name="name" value="{{ old('name', $user->name) }}" />
                                         <div class="form-control-icon">
                                             <i class="bi bi-person py-2"></i>
@@ -76,7 +76,7 @@
                             </div>
                             <div class="col-md-6 col-12 mb-1">
                                 <div class="form-group has-icon-left mandatory @error('nik') is-invalid @enderror">
-                                    <label for="nik" class="form-label">NIK</label>
+                                    <label for="nik" class="form-label">NIM</label>
                                     <div class="position-relative">
                                         <input @if ($user->level != 'admin') @readonly(true) @endif type="text"
                                             class="form-control py-2" placeholder="e.g. 1050241708900001" id="nik"
@@ -115,7 +115,7 @@
                                     <label for="email" class="form-label">Email</label>
                                     <div class="position-relative">
                                         <input type="email" class="form-control py-2"
-                                            placeholder="e.g. alfian.dev@gmail.com" id="email" name="email"
+                                            placeholder="e.g. adji.dev@gmail.com" id="email" name="email"
                                             value="{{ old('email', $user->email) }}" maxlength="255" />
                                         <div class="form-control-icon">
                                             <i class="bi bi-envelope-paper py-2"></i>

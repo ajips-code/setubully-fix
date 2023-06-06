@@ -61,7 +61,7 @@
                                                 <label for="name" class="form-label">Nama</label>
                                                 <div class="position-relative">
                                                     <input type="text" class="form-control py-2"
-                                                        placeholder="e.g. Muhammad Alfian" id="name" name="name"
+                                                        placeholder="e.g. Muhammad Adji" id="name" name="name"
                                                         value="{{ old('name') }}" />
                                                     <div class="form-control-icon">
                                                         <i class="bi bi-person py-2"></i>
@@ -77,7 +77,7 @@
                                         <div class="col-md-6 col-12 mb-1">
                                             <div
                                                 class="form-group has-icon-left mandatory @error('nik') is-invalid @enderror">
-                                                <label for="nik" class="form-label">NIK</label>
+                                                <label for="nik" class="form-label">NIM</label>
                                                 <div class="position-relative">
                                                     <input type="text" class="form-control py-2"
                                                         placeholder="e.g. 1050241708900001" id="nik" name="nik"
@@ -98,7 +98,7 @@
                                                 class="form-group has-icon-left mandatory @error('username') is-invalid @enderror">
                                                 <label for="username" class="form-label">Username</label>
                                                 <div class="position-relative">
-                                                    <input type="text" class="form-control py-2" placeholder="alfianchii"
+                                                    <input type="text" class="form-control py-2" placeholder="adjiyes"
                                                         id="username" name="username" value="{{ old('username') }}"
                                                         maxlength="255" />
                                                     <div class="form-control-icon">
@@ -118,7 +118,7 @@
                                                 <label for="email" class="form-label">Email</label>
                                                 <div class="position-relative">
                                                     <input type="email" class="form-control py-2"
-                                                        placeholder="e.g. alfian.dev@gmail.com" id="email"
+                                                        placeholder="e.g. adji17@gmail.com" id="email"
                                                         name="email" value="{{ old('email') }}" maxlength="255" />
                                                     <div class="form-control-icon">
                                                         <i class="bi bi-envelope-paper py-2"></i>

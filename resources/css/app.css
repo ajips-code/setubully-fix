@@ -2,30 +2,34 @@ html,
 body {
     height: 100%;
 }
+
 a {
     text-decoration: none;
 }
+
 .bg.footer {
     height: 100%;
 }
+
 .bg-home {
     width: 100%;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-        linear-gradient(
-            243.3deg,
+        linear-gradient(243.3deg,
             rgba(141, 255, 248, 0.79) 0%,
-            rgba(79, 181, 255, 0.79) 100%
-        );
+            rgba(79, 181, 255, 0.79) 100%);
     height: 100%;
     position: relative;
 }
+
 .illust-home {
     z-index: 10;
     position: relative;
 }
+
 html[data-bs-theme="dark"] * .poligon {
     border-bottom: solid 500px #151521;
 }
+
 .poligon {
     position: absolute;
     right: 0;
@@ -37,42 +41,40 @@ html[data-bs-theme="dark"] * .poligon {
     border-right: solid 0px transparent;
     z-index: 2;
 }
+
 .bg-transparent.active {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-        linear-gradient(
-            245.76deg,
+        linear-gradient(245.76deg,
             rgba(141, 255, 248, 0.79) 3.25%,
-            rgba(79, 181, 255, 0.79) 100%
-        );
+            rgba(79, 181, 255, 0.79) 100%);
 }
+
 .bg-nav {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-        linear-gradient(
-            245.76deg,
+        linear-gradient(245.76deg,
             rgba(141, 255, 248, 0.79) 3.25%,
-            rgba(79, 181, 255, 0.79) 100%
-        );
+            rgba(79, 181, 255, 0.79) 100%);
 }
+
 .bg {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-        linear-gradient(
-            245.76deg,
+        linear-gradient(245.76deg,
             rgba(141, 255, 248, 0.79) 3.25%,
-            rgba(79, 181, 255, 0.79) 100%
-        );
+            rgba(79, 181, 255, 0.79) 100%);
 }
+
 .bg-about {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-        linear-gradient(
-            245.76deg,
+        linear-gradient(245.76deg,
             rgba(141, 255, 248, 0.79) 3.25%,
-            rgba(79, 181, 255, 0.79) 100%
-        );
+            rgba(79, 181, 255, 0.79) 100%);
     height: 600px;
 }
+
 html[data-bs-theme="dark"] * .navbar {
     position: fixed;
 }
+
 .height {
     height: 100%;
 }
@@ -80,9 +82,11 @@ html[data-bs-theme="dark"] * .navbar {
 .btn-color {
     background-color: #1e97af !important;
 }
+
 .btn.btn-color:active {
     background-color: #1e97af !important;
 }
+
 .btn-color:hover {
     background-color: #259eb7 !important;
 }
@@ -90,38 +94,48 @@ html[data-bs-theme="dark"] * .navbar {
 .margin-form {
     margin: 0 120px;
 }
+
 .logo-smk4 {
     width: 30%;
 }
-.logo-smk4 ~ span {
+
+.logo-smk4~span {
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 97.39%;
 }
+
 .sidebar-header .logo {
     width: 200%;
 }
+
 html[data-bs-theme="dark"] * .sidebar-header .logo {
     width: 200%;
 }
+
 .sidebar-header .logo img {
     width: 22%;
     height: 100%;
 }
+
 .sidebar-header .logo span {
     color: #4563a8;
 }
+
 html[data-bs-theme="dark"] * .sidebar-header .logo img {
     width: 23%;
     height: 100%;
 }
+
 html[data-bs-theme="dark"] * .sidebar-header .logo span {
     color: white;
 }
+
 .logo {
     width: 25%;
 }
+
 .logo img {
     width: 50%;
 }
@@ -129,6 +143,7 @@ html[data-bs-theme="dark"] * .sidebar-header .logo span {
 .logo-login img {
     width: 50%;
 }
+
 .illus-login img {
     width: 60%;
 }
@@ -145,6 +160,7 @@ html[data-bs-theme="dark"] * .sidebar-header .logo span {
 .alur-lapor .col:nth-child(1) .ellipse {
     background: #1a9fbb;
 }
+
 .ellipse {
     padding: 19px;
     margin: 0 auto;
@@ -155,42 +171,49 @@ html[data-bs-theme="dark"] * .sidebar-header .logo span {
     position: relative;
     z-index: 2;
 }
+
 html[data-bs-theme="dark"] * .ellipse {
     background-color: #1e1e2d;
 }
+
 html[data-bs-theme="dark"] * .ellipse img {
-    filter: invert(100%) sepia(3%) saturate(7495%) hue-rotate(337deg)
-        brightness(123%) contrast(95%);
+    filter: invert(100%) sepia(3%) saturate(7495%) hue-rotate(337deg) brightness(123%) contrast(95%);
 }
+
 html[data-bs-theme="dark"] * .col:nth-child(1) .ellipse img {
     filter: none;
 }
+
 html[data-bs-theme="dark"] * .col:last-child .ellipse img {
     filter: none;
 }
+
 .ellipse:hover,
 html[data-bs-theme="dark"] * .ellipse:hover {
     background: #1a9fbb;
     transition: 0.5s all;
 }
+
 .ellipse:hover img {
-    filter: invert(100%) sepia(3%) saturate(7495%) hue-rotate(337deg)
-        brightness(123%) contrast(95%);
+    filter: invert(100%) sepia(3%) saturate(7495%) hue-rotate(337deg) brightness(123%) contrast(95%);
 }
+
 .col:nth-child(1) .ellipse:hover img {
     filter: none;
 }
 
 .col:last-child .ellipse img {
-    filter: invert(0%) sepia(4%) saturate(2%) hue-rotate(318deg) brightness(16%)
-        contrast(100%);
+    filter: invert(0%) sepia(4%) saturate(2%) hue-rotate(318deg) brightness(16%) contrast(100%);
 }
+
 .col:last-child .ellipse:hover img {
     filter: none;
 }
+
 .ellipse img::selection {
     background-color: transparent;
 }
+
 .garis {
     margin-top: 2.5%;
     position: absolute;
@@ -201,7 +224,7 @@ html[data-bs-theme="dark"] * .ellipse:hover {
     z-index: 1;
 }
 
-html[data-bs-theme="dark"] * .ellipse ~ .h5 {
+html[data-bs-theme="dark"] * .ellipse~.h5 {
     font-size: inherit;
 }
 
@@ -210,42 +233,49 @@ html[data-bs-theme="dark"] * .ellipse ~ .h5 {
     color: #1a9fbb !important;
     padding: 0.7rem 5rem !important;
 }
+
 .btn-lapor:hover {
     background-color: #1994ac !important;
     color: white !important;
     box-shadow: 4px 3px 38px -13px #1994ac;
 }
+
 a.btn.btn-lapor:active {
     background-color: #13aac8 !important;
     color: white !important;
 }
+
 .jumlah-lapor {
     width: 100%;
     height: 100%;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-        linear-gradient(
-            243.3deg,
+        linear-gradient(243.3deg,
             rgba(141, 255, 248, 0.79) 0%,
-            rgba(79, 181, 255, 0.79) 100%
-        );
+            rgba(79, 181, 255, 0.79) 100%);
     padding-bottom: 5px;
 }
+
 .ql-editor.ql-blank::before {
     color: inherit !important;
 }
+
 html[data-bs-theme="dark"] .ql-editor.ql-blank p {
     margin-bottom: 0;
 }
+
 html[data-bs-theme="dark"] .ql-snow .ql-stroke {
     stroke: #c2c2d9;
 }
+
 html[data-bs-theme="dark"] .ql-snow .ql-fill,
 .ql-snow .ql-stroke.ql-fill {
     fill: #c2c2d9;
 }
+
 html[data-bs-theme="dark"] .ql-snow .ql-picker {
     color: inherit;
 }
+
 html[data-bs-theme="dark"] .filepond--drop-label {
     background-color: #181826;
 }
@@ -254,6 +284,7 @@ html[data-bs-theme="dark"] .filepond--drop-label {
 .fa-fw {
     color: #1e1e2d;
 }
+
 html[data-bs-theme="dark"] * .fa-fw {
     color: #ebebeb;
 }
@@ -262,43 +293,46 @@ html[data-bs-theme="dark"] * .fa-fw {
     background-color: #1a9fbb;
     box-shadow: 0px 0px 50px 3px rgba(26, 159, 187, 0.3);
 }
+
 html[data-bs-theme="dark"] .card-keuntungan .ellipse {
     background-color: #1a9fbb;
 }
+
 .card-keuntungan .ellipse img.icon-keuntungan {
     filter: none;
 }
+
 html[data-bs-theme="dark"] .card-keuntungan .ellipse img.icon-keuntungan {
     filter: none;
 }
+
 .card-keuntungan .ellipse:hover {
     background-color: #ffffff;
 }
+
 html[data-bs-theme="dark"] .card-keuntungan .ellipse:hover {
     background-color: #ffffff;
 }
+
 .card-keuntungan .card:hover .ellipse {
     background-color: #ffffff;
     transition: 0.5s ease-in-out;
     box-shadow: 0px 0px 50px 3px rgba(255, 255, 255, 0.65);
 }
+
 .card-keuntungan .card:hover .ellipse img.icon-keuntungan {
-    filter: invert(99%) sepia(5%) saturate(0%) hue-rotate(274deg)
-        brightness(114%) contrast(100%);
+    filter: invert(99%) sepia(5%) saturate(0%) hue-rotate(274deg) brightness(114%) contrast(100%);
     transition: 0.5s ease-in-out;
 }
+
 html[data-bs-theme="dark"] .card-keuntungan .card:hover .ellipse {
     background-color: #ffffff;
     transition: 0.5s ease-in-out;
     box-shadow: 0px 0px 50px 3px rgba(255, 255, 255, 0.65);
 }
-html[data-bs-theme="dark"]
-    .card-keuntungan
-    .card:hover
-    .ellipse
-    img.icon-keuntungan {
-    filter: invert(99%) sepia(5%) saturate(0%) hue-rotate(274deg)
-        brightness(114%) contrast(100%);
+
+html[data-bs-theme="dark"] .card-keuntungan .card:hover .ellipse img.icon-keuntungan {
+    filter: invert(99%) sepia(5%) saturate(0%) hue-rotate(274deg) brightness(114%) contrast(100%);
     transition: 0.5s ease-in-out;
 }
 
@@ -307,11 +341,12 @@ html[data-bs-theme="dark"]
     transition: 0.8s ease-in-out;
 }
 
-.card-keuntungan .card:hover .ellipse ~ h5 {
+.card-keuntungan .card:hover .ellipse~h5 {
     color: #ffffff;
     transition: 0.5s ease-in-out;
 }
-.card-keuntungan .card:hover .ellipse ~ p {
+
+.card-keuntungan .card:hover .ellipse~p {
     color: #ffffff;
     transition: 0.5s ease-in-out;
 }
@@ -320,122 +355,155 @@ html[data-bs-theme="dark"]
     width: 100%;
     height: 100%;
 }
+
 #pagin-links p {
     margin-right: 20px;
 }
+
 #pagin-links .page-link.active,
-.active > .page-link {
+.active>.page-link {
     background-color: #1e97af;
     border-color: #1e97af;
 }
+
 html[data-bs-theme="dark"] #pagin-links .page-link.active,
-.active > .page-link {
+.active>.page-link {
     color: #ffffff !important;
     background-color: #1e97af !important;
     border-color: #1e97af !important;
 }
+
 #pagin-links .page-link {
     color: #435ebe;
 }
+
 html[data-bs-theme="dark"] #pagin-links .page-link {
     color: #7c8db5;
     background-color: #1e1e2d;
     border-color: #0f0f15;
 }
+
 .navbar-expand .navbar-nav .dropdown-menu {
     position: absolute;
 }
+
 .show-password {
     position: absolute;
     left: auto;
 }
+
 @media only screen and (max-width: 374px) {
     .margin-form {
         margin: 0 15px;
     }
+
     .logo {
         width: 74%;
     }
+
     .logo img {
         width: 50%;
     }
+
     .logo-login img {
         width: 50%;
     }
+
     .illus-login img {
         width: 50%;
     }
+
     .illust-about {
         width: 100%;
         margin-top: 20px;
     }
+
     .logo-smk {
         width: 70%;
     }
+
     .bg-about {
         height: 100%;
     }
+
     .alur-lapor {
         margin-left: 0.2px;
     }
+
     html[data-bs-theme="dark"] * .alur-lapor {
         margin-left: 0.2px;
     }
+
     .alur-lapor .col {
         width: 50px !important;
     }
+
     .garis {
         margin-top: 6%;
         left: 10%;
         width: 80%;
     }
+
     .ellipse {
         padding: 7px;
         width: 40px;
         height: 40px;
     }
+
     .ellipse img {
         width: 20px;
     }
-    .ellipse ~ h5 {
+
+    .ellipse~h5 {
         font-size: 10px !important;
     }
-    .card-keuntungan .ellipse ~ h5 {
+
+    .card-keuntungan .ellipse~h5 {
         font-size: 18px !important;
     }
-    html[data-bs-theme="dark"] .card-keuntungan .ellipse ~ h5 {
+
+    html[data-bs-theme="dark"] .card-keuntungan .ellipse~h5 {
         font-size: 18px !important;
     }
-    html[data-bs-theme="dark"] * .ellipse ~ h5 {
+
+    html[data-bs-theme="dark"] * .ellipse~h5 {
         font-size: 10px !important;
     }
+
     .btn-lapor {
         padding: 0.5rem 2rem !important;
     }
+
     .logo-smk4 {
         width: 30%;
     }
-    .logo-smk4 ~ span {
+
+    .logo-smk4~span {
         font-style: normal;
         font-weight: bold;
         font-size: 20px;
         line-height: 97.39%;
     }
+
     #tanggapan-student {
         padding: 2rem 0.8rem !important;
     }
+
     .hashtag {
         font-size: 100% !important;
     }
+
     .navbar-expand .navbar-nav .dropdown-menu {
         position: fixed;
     }
+
     .dropdown-menu[data-bs-popper] {
         top: 17%;
         left: 0;
         right: 0;
     }
 }
+
 @media only screen and (min-width: 360px) and (max-width: 360.9px) {
     .dropdown-menu[data-bs-popper] {
         top: 12%;
@@ -443,72 +511,92 @@ html[data-bs-theme="dark"] #pagin-links .page-link {
         right: 0;
     }
 }
+
 @media only screen and (min-width: 373px) and (max-width: 430px) {
     .margin-form {
         margin: 0 15px;
     }
+
     .logo {
         width: 74%;
     }
+
     .logo img {
         width: 50%;
     }
+
     .logo-login img {
         width: 50%;
     }
+
     .illus-login img {
         width: 50%;
     }
+
     .illust-about {
         width: 100%;
         margin-top: 20px;
     }
+
     .logo-smk {
         width: 70%;
     }
+
     .bg-about {
         height: 100%;
     }
+
     .alur-lapor {
         margin-left: 1px !important;
     }
+
     .garis {
         margin-top: 5.5%;
         left: 10%;
         width: 80%;
     }
+
     .ellipse {
         padding: 7px;
         width: 40px;
         height: 40px;
     }
+
     .ellipse img {
         width: 20px;
     }
-    .ellipse ~ h5 {
+
+    .ellipse~h5 {
         font-size: 12px;
     }
-    .card-keuntungan .ellipse ~ h5 {
+
+    .card-keuntungan .ellipse~h5 {
         font-size: 20px !important;
     }
-    html[data-bs-theme="dark"] .card-keuntungan .ellipse ~ h5 {
+
+    html[data-bs-theme="dark"] .card-keuntungan .ellipse~h5 {
         font-size: 20px !important;
     }
-    html[data-bs-theme="dark"] * .ellipse ~ h5 {
+
+    html[data-bs-theme="dark"] * .ellipse~h5 {
         font-size: 12px !important;
     }
+
     .btn-lapor {
         padding: 0.5rem 2rem !important;
     }
+
     .navbar-expand .navbar-nav .dropdown-menu {
         position: fixed;
     }
+
     .dropdown-menu[data-bs-popper] {
         top: 16%;
         left: 0;
         right: 0;
     }
 }
+
 @media only screen and (min-width: 375px) and (max-width: 375.9px) {
     .dropdown-menu[data-bs-popper] {
         top: 13%;
@@ -516,6 +604,7 @@ html[data-bs-theme="dark"] #pagin-links .page-link {
         right: 0;
     }
 }
+
 @media only screen and (min-width: 390px) and (max-width: 393.9px) {
     .dropdown-menu[data-bs-popper] {
         top: 12%;
@@ -523,6 +612,7 @@ html[data-bs-theme="dark"] #pagin-links .page-link {
         right: 0;
     }
 }
+
 @media only screen and (min-width: 412px) and (max-width: 429.9px) {
     .dropdown-menu[data-bs-popper] {
         top: 10%;
@@ -530,6 +620,7 @@ html[data-bs-theme="dark"] #pagin-links .page-link {
         right: 0;
     }
 }
+
 @media only screen and (min-width: 425px) and (max-width: 425.9px) {
     .dropdown-menu[data-bs-popper] {
         top: 17%;
@@ -537,362 +628,557 @@ html[data-bs-theme="dark"] #pagin-links .page-link {
         right: 0;
     }
 }
+
 @media only screen and (min-width: 430px) and (max-width: 570px) {
     .margin-form {
         margin: 0 15px;
     }
+
     .logo {
         width: 74%;
     }
+
     .logo img {
         width: 50%;
     }
+
     .logo-login img {
         width: 50%;
     }
+
     .illus-login img {
         width: 50%;
     }
+
     .illust-about {
         width: 100%;
         margin-top: 20px;
     }
-    .card-keuntungan .ellipse ~ h5 {
+
+    .card-keuntungan .ellipse~h5 {
         font-size: 20px !important;
     }
-    html[data-bs-theme="dark"] .card-keuntungan .ellipse ~ h5 {
+
+    html[data-bs-theme="dark"] .card-keuntungan .ellipse~h5 {
         font-size: 20px !important;
     }
+
     .logo-smk {
         width: 60%;
     }
+
     .bg-about {
         height: 100%;
     }
+
     .garis {
         margin-top: 5.9%;
         left: 10%;
         width: 75%;
     }
+
     .alur-lapor {
         margin-left: 1px !important;
     }
+
     .ellipse {
         padding: 10px;
         width: 55px;
         height: 55px;
     }
+
     .ellipse img {
         width: 35px;
     }
-    .ellipse ~ h5 {
+
+    .ellipse~h5 {
         font-size: 12px;
     }
-    html[data-bs-theme="dark"] * .ellipse ~ h5 {
+
+    html[data-bs-theme="dark"] * .ellipse~h5 {
         font-size: 12px;
     }
+
     .btn-lapor {
         padding: 0.5rem 2rem !important;
     }
+
     .logo-smk4 {
         width: 20%;
     }
-    .logo-smk4 ~ span {
+
+    .logo-smk4~span {
         font-style: normal;
         font-weight: bold;
         font-size: 26px;
         line-height: 97.39%;
         width: 50%;
     }
+
     .navbar-expand .navbar-nav .dropdown-menu {
         position: fixed;
     }
+
     .dropdown-menu[data-bs-popper] {
         top: 14%;
         left: 0;
         right: 0;
     }
 }
+
 @media only screen and (min-width: 570px) and (max-width: 671px) {
     .margin-form {
         margin: 0 15px;
     }
+
     .logo {
         width: 74%;
     }
+
     .logo img {
         width: 50%;
     }
+
     .logo-login img {
         width: 50%;
     }
+
     .illus-login img {
         width: 50%;
     }
+
     .illust-about {
         width: 100%;
         margin-top: 20px;
     }
+
     .logo-smk {
         width: 60%;
     }
+
     .bg-about {
         height: 100%;
     }
+
     .garis {
         margin-top: 4.5%;
         left: 13%;
         width: 70%;
     }
+
     .ellipse {
         padding: 10px;
         width: 55px;
         height: 55px;
     }
-    .card-keuntungan .ellipse ~ h5 {
+
+    .card-keuntungan .ellipse~h5 {
         font-size: 20px !important;
     }
-    html[data-bs-theme="dark"] .card-keuntungan .ellipse ~ h5 {
+
+    html[data-bs-theme="dark"] .card-keuntungan .ellipse~h5 {
         font-size: 20px !important;
     }
+
     .ellipse img {
         width: 35px;
     }
-    .ellipse ~ h5 {
+
+    .ellipse~h5 {
         font-size: 12px;
     }
+
     .btn-lapor {
         padding: 0.5rem 2rem !important;
     }
+
     .navbar-expand .navbar-nav .dropdown-menu {
         position: fixed;
     }
+
     .dropdown-menu[data-bs-popper] {
         top: 18%;
         left: 0;
         right: 0;
     }
 }
+
 @media only screen and (min-width: 671px) and (max-width: 768px) {
     .margin-form {
         margin: 0 15px;
     }
+
     .logo {
         width: 74%;
     }
+
     .logo img {
         width: 50%;
     }
+
     .logo-login img {
         width: 50%;
     }
+
     .illus-login img {
         width: 50%;
     }
+
     .illust-about {
         width: 100%;
         margin-top: 20px;
     }
-    .card-keuntungan .ellipse ~ h5 {
+
+    .card-keuntungan .ellipse~h5 {
         font-size: 20px !important;
     }
-    html[data-bs-theme="dark"] .card-keuntungan .ellipse ~ h5 {
+
+    html[data-bs-theme="dark"] .card-keuntungan .ellipse~h5 {
         font-size: 20px !important;
     }
+
     .logo-smk {
         width: 60%;
     }
+
     .bg-about {
         height: 100%;
     }
+
     .garis {
         margin-top: 4.5%;
         left: 17.5%;
         width: 60%;
     }
+
     .ellipse {
         padding: 10px;
         width: 55px;
         height: 55px;
     }
+
     .ellipse img {
         width: 35px;
     }
-    .ellipse ~ h5 {
+
+    .ellipse~h5 {
         font-size: 12px;
     }
+
     .btn-lapor {
         padding: 0.5rem 2rem !important;
     }
+
     .navbar-expand .navbar-nav .dropdown-menu {
         position: fixed;
     }
+
     .dropdown-menu[data-bs-popper] {
         top: 18%;
         left: 0;
         right: 0;
     }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 768.9px) {
     .navbar-expand .navbar-nav .dropdown-menu {
         position: absolute;
     }
+
     .dropdown-menu[data-bs-popper] {
         top: 100%;
         left: auto;
     }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     p.fs-5 {
         font-size: 1.2rem !important;
     }
+
     .logo {
         width: 45%;
     }
+
     .margin-form {
         margin: 0 20px;
     }
+
     .poligon {
         border-bottom: solid 400px #f2f7ff;
         border-left: solid 400px transparent;
         border-right: solid 0px transparent;
     }
+
     .logo-smk {
         width: 120%;
     }
+
     .garis {
         margin-top: 4.5%;
         width: 64%;
         left: 16.5%;
     }
+
     .ellipse {
         padding: 19px;
         width: 75px;
         height: 75px;
     }
-    .ellipse ~ h5 {
+
+    .ellipse~h5 {
         font-size: inherit;
     }
+
     .btn-lapor {
         padding: 0.7rem 4rem !important;
     }
+
     .logo-smk4 {
         width: 30%;
     }
-    .logo-smk4 ~ span {
+
+    .logo-smk4~span {
         font-style: normal;
         font-weight: bold;
         font-size: 13px;
         line-height: 97.39%;
     }
+
     .hashtag {
         font-size: 100% !important;
     }
+
     p.fs-5.sosial {
         font-size: 100% !important;
     }
+
     .bi.bi-github.fs-1 {
         font-size: calc(1.3rem + 1.5vw) !important;
     }
+
     .card-keuntungan .card {
         height: 360px !important;
     }
+
     .navbar-collapse {
         display: flex;
     }
+
     .navbar-collapse .ms-auto {
         margin: 0 auto 0 0 !important;
     }
+
     .navbar-collapse .ms-auto#notif {
         margin: 0 0 0 auto !important;
     }
 }
+
 @media only screen and (min-width: 991px) and (max-width: 991.9px) {
     .logo img {
         width: 80% !important;
     }
+
     .garis {
         margin-top: 4% !important;
         width: 64% !important;
         left: 16.5% !important;
     }
+
     .navbar-collapse {
         display: flex;
     }
+
     .navbar-collapse .ms-auto {
         margin: 0 auto 0 0 !important;
     }
 }
+
 @media only screen and (min-width: 991px) and (max-width: 1200px) {
     .garis {
         margin-top: 3.5%;
         width: 70%;
         left: 14.3%;
     }
+
     .btn-lapor {
         padding: 0.7rem 4rem !important;
     }
+
     .logo img {
         width: 60%;
     }
+
     .logo-smk4 {
         width: 30%;
     }
-    .logo-smk4 ~ span {
+
+    .logo-smk4~span {
         font-style: normal;
         font-weight: bold;
         font-size: 17px;
         line-height: 97.39%;
     }
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1440px) {
     .garis {
         margin-top: 2.8%;
         width: 70%;
         left: 14.3%;
     }
+
     .btn-lapor {
         padding: 0.7rem 4rem !important;
     }
+
     .logo-smk4 {
         width: 30%;
     }
-    .logo-smk4 ~ span {
+
+    .logo-smk4~span {
         font-style: normal;
         font-weight: bold;
         font-size: 17px;
         line-height: 97.39%;
     }
 }
+
 @media only screen and (min-width: 1440px) and (max-width: 1700px) {
     .garis {
         margin-top: 2.5%;
         width: 69%;
         left: 14%;
     }
+
     .btn-lapor {
         padding: 0.7rem 4rem !important;
     }
+
     .logo-smk4 {
         width: 30%;
     }
-    .logo-smk4 ~ span {
+
+    .logo-smk4~span {
         font-style: normal;
         font-weight: bold;
         font-size: 20px;
         line-height: 97.39%;
     }
+
     .page-content .row .col-12 .row .col-6:last-child .card .card-body {
         padding: 2rem 0.8rem !important;
     }
+
     #tanggapan-student {
         padding: 2rem 0.8rem !important;
     }
 }
+
 @media only screen and (min-width: 1700px) {
     .garis {
         margin-top: 1.5%;
         left: 29%;
         width: 42%;
     }
+}
+
+/* Tips and Information */
+.home-images {
+    max-width: 100%;
+    height: auto;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.home-images.animate {
+    animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+@keyframes pulse {
+    25% {
+        transform: scale(0.85);
+    }
+
+    50% {
+        transform: scale(0.95);
+    }
+
+    75% {
+        transform: scale(1);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+
+    /* Styles for dark mode */
+    .home-images {
+        max-width: 60px;
+        opacity: 0;
+        height: auto;
+        border: 2px solid white;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    }
+}
+
+@media (min-width: 768px) {
+
+    /* Ukuran gambar untuk laptop atau perangkat dengan lebar minimum 768px */
+    .home-images {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /* Ukuran gambar untuk perangkat mobile dengan lebar maksimum 767px */
+    .home-images {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.stories {
+    margin-top: 5rem;
+    font-family: sans-serif;
+}
+
+.card-container {
+    padding: 15px 15px;
+}
+
+.card-container h1 {
+    text-align: center;
+    font-family: cursive;
+}
+
+.card-body {
+    font-family: cursive;
+    font-size: 12px;
+    color: #000000;
+}
+
+.card-text {
+    text-align: justify;
+    font-size: 13px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+/* Vidio Container */
+svg {
+    width: 100%;
+}
+
+.video-container {
+    padding: 50px 200px;
+    margin-bottom: 20px;
+}
+
+.video-container h1 {
+    margin-top: 20px;
+    font-family: cursive;
+    text-align: center;
 }

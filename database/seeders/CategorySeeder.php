@@ -16,17 +16,11 @@ class CategorySeeder extends Seeder
     public function run()
     {
         Category::insert([
-            ["name" => "Penindasan", "slug" => "penindasan", "description" => "Tindakan yang merugikan seseorang atau kelompok dengan memaksa, mengintimidasi, atau membatasi kebebasannya."],
-            ["name" => "Pelecehan Seksual", "slug" => "pelecehan-seksual", "description" => "Tindakan yang dilakukan oleh seseorang terhadap orang lain yang dianggap sebagai tindakan tidak senonoh atau tidak diinginkan secara seksual."],
-            ["name" => "Bully", "slug" => "bully", "description" => "Intimidasi atau penganiayaan terhadap seseorang atau kelompok orang secara berulang dan sengaja."],
-            ["name" => "Kekerasan", "slug" => "kekerasan", "description" => "Tindakan yang dilakukan oleh seseorang atau kelompok orang yang menyebabkan orang lain menderita atau merasa takut menderita, cedera, sakit, atau kematian."],
-            ["name" => "Pencurian", "slug" => "pencurian", "description" => "Tindakan mengambil barang milik orang lain tanpa izin."],
-            ["name" => "Pembakaran", "slug" => "pembakaran", "description" => "Tindakan membakar barang milik orang lain tanpa izin."],
-            ["name" => "Pengrusakan", "slug" => "pengrusakan", "description" => "Tindakan merusak barang milik orang lain tanpa izin."],
-            ["name" => "Pembuangan Sampah Sembarangan", "slug" => "pembuangan-sampah-sembarangan", "description" => "Tindakan membuang sampah di tempat yang tidak semestinya."],
-            ["name" => "Pembuangan Air Kotor Sembarangan", "slug" => "pembuangan-air-kotor-sembarangan", "description" => "Tindakan membuang air kotor di tempat yang tidak semestinya."],
-            ["name" => "Pemalakan", "slug" => "pemalakan", "description" => "Tindakan meminta uang atau barang secara paksa."],
-            ["name" => "Obat-obatan", "slug" => "obat-obatan", "description" => "Tindakan mengonsumsi obat-obatan terlarang."],
+            ["name" => "Cyberbullying","image" => "cyberbullying.jpg", "slug" => "cyberbullying", "description" => "<p>Laporkan langsung bentuk tindakan bullying yang dilakukan melalui media sosial, pesan teks, atau platform digital lainnya. Cyberbullying dapat melibatkan penghinaan, penyebaran rumor, pelecehan secara online, atau pencemaran nama baik melalui komentar negatif atau gambar yang merendahkan.</p>"],
+            ["name" => "Verbal Bullying","image" => "verbal-bullying.png", "slug" => "verbal-bullying", "description" => "<p>Laporkan hal yang melibatkan penghinaan, ejekan, penghinaan, atau pengucilan secara lisan. Ini bisa terjadi dalam percakapan sehari-hari, di kelas, atau dalam kelompok sosial. Contohnya termasuk mengolok-olok penampilan fisik, cerdas, latar belakang etnis, atau agama seseorang.</p>"],
+            ["name" => "Bullying Fisik","image" => "bullying-fisik.jpg", "slug" => "bullying-fisik", "description" => "<p>Laporkanlah Tindakan yang melibatkan penggunaan kekerasan fisik atau ancaman fisik untuk menyakiti atau mengintimidasi seseorang. Ini bisa berupa pukulan, tendangan, dorongan, atau ancaman menggunakan kekuatan fisik.</p>"],
+            ["name" => "Bullying Emosional","image" => "bullying-emosional.jpeg", "slug" => "bullying-emosional", "description" => "<p>Segera beri kabar apabila ada bentuk bullying yang melibatkan penghinaan, pengabaian, isolasi, atau pengucilan yang bertujuan untuk merendahkan atau merusak keadaan emosional seseorang. Ini bisa termasuk mengabaikan seseorang, menyebabkan rasa malu atau cemas, atau membuat seseorang merasa tidak berharga.</p>"],
+            ["name" => "Bullying Seksual","image" => "bullying-seksual.jpg", "slug" => "bullying-seksual", "description" => "<p>Laporkan langsung apabila mendapati pelaku atau korban yang melibatkan perilaku tidak diinginkan atau tidak pantas yang bersifat seksual, termasuk pelecehan seksual, komentar yang tidak senonoh, atau ancaman untuk memperoleh layanan seksual melalui penekanan atau pemerasan.</p>"],
         ]);
     }
 }

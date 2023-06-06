@@ -89,7 +89,7 @@
                         <div class="row">
                             <div class="col-12 col-md-6">
                                 <div class="">
-                                    <h6>NIK: <span class="text-muted">{{ $user->nik }}</span></h6>
+                                    <h6>NIM: <span class="text-muted">{{ $user->nik }}</span></h6>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6">

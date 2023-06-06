@@ -6,26 +6,36 @@
                 <div class="d-flex align-items-center justify-content-center justify-content-md-start">
                     {{-- If FOOTER_IMAGE_DASHBOARD didn't contains "/" --}}
                     @if (strpos(config('web_config')['FOOTER_IMAGE_DASHBOARD'], '/') === false)
-                        <img src="{{ asset('images/' . config('web_config')['FOOTER_IMAGE_DASHBOARD']) }}"
-                            class="logo-smk4" alt="Footer Website" width="100%">
+                    <img src="{{ asset('images/' . config('web_config')['FOOTER_IMAGE_DASHBOARD']) }}" class="logo-smk4" alt="Footer Website" width="100%">
                     @else
-                        <img src="{{ asset('storage/' . config('web_config')['FOOTER_IMAGE_DASHBOARD']) }}"
-                            class="logo-smk4" alt="Footer Website" width="100%">
+                    <img src="{{ asset('storage/' . config('web_config')['FOOTER_IMAGE_DASHBOARD']) }}" class="logo-smk4" alt="Footer Website" width="100%">
                     @endif
                     <span class="ms-2">{{ config('web_config')['FOOTER_TEXT_DASHBOARD'] }}</span>
                 </div>
             </div>
             <div class="col pt-5 text-center">
-                <p class="fw-bold fs-3 pt-0 pb-4 pt-sm-4 pb-sm-0 hashtag">#JANGANTAKUTLAPOR!</p>
+                <p class="fw-bold fs-3 pt-0 pb-4 pt-sm-4 pb-sm-0 hashtag">JANGAN TAKUT LAPOR YAH !</p>
             </div>
             <div class="col-12 col-md-3 text-center">
                 <p class="fs-5 sosial">
                     Sosial media kami
                 </p>
                 <div class="row">
-                    <div class="col"><i class="bi bi-github fs-1"></i></div>
-                    <div class="col"><i class="bi bi-github fs-1"></i></div>
-                    <div class="col"><i class="bi bi-github fs-1"></i></div>
+                    <div class="col">
+                        <a href="https://github.com/ajips-code" target="_blank">
+                            <i class="bi bi-github fs-1"></i>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.instagram.com/akprind_media/" target="_blank">
+                            <i class="bi bi-instagram fs-1"></i>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://akprind.ac.id/" target="_blank">
+                            <i class="bi bi-globe fs-1"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

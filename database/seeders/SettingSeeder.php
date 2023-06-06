@@ -16,16 +16,16 @@ class SettingSeeder extends Seeder
     public function run()
     {
         Setting::insert([
-            ['key' => 'WEB_TITLE', 'value' => 'Confess'],
-            ['key' => 'WEB_LOCATION', 'value' => '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5768925963066!2d106.63556391455468!3d-6.187333395520691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f929162547c7%3A0xbbf35137362e584d!2sSMK%20Negeri%204%20Kota%20Tangerang!5e0!3m2!1sid!2sid!4v1677921080826!5m2!1sid!2sid" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'],
-            ['key' => 'WEB_LOGO_WHITE', 'value' => 'logoT.png'],
-            ['key' => 'WEB_LOGO', 'value' => 'logoT.png'],
-            ['key' => 'WEB_FAVICON', 'value' => 'logo.png'],
-            ['key' => 'HERO_TEXT_HEADER', 'value' => 'Sistem Pengaduan Online SMKN 4 Kota Tangerang'],
-            ['key' => 'HERO_TEXT_DESCRIPTION', 'value' => 'Sampaikan laporan, kritik, atau saran kamu di website ini~'],
-            ['key' => 'FOOTER_IMAGE', 'value' => 'logo-smk-4.png'],
-            ['key' => 'FOOTER_TEXT_DASHBOARD', 'value' => 'SMK Negeri 4 Tangerang'],
-            ['key' => 'FOOTER_IMAGE_DASHBOARD', 'value' => 'smk.png'],
+            ['key' => 'WEB_TITLE', 'value' => 'Setubully'],
+            ['key' => 'WEB_LOCATION', 'value' => '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.0482658443407!2d110.3830403743061!3d-7.784707677244947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59ce29bc3887%3A0x2cad870b4a56cf1!2sINSTITUT%20SAINS%20%26%20TEKNOLOGI%20AKPRIND!5e0!3m2!1sid!2sid!4v1686070441913!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'],
+            ['key' => 'WEB_LOGO_WHITE', 'value' => 'logo-akprind.png'],
+            ['key' => 'WEB_LOGO', 'value' => 'logo-akprind.png'],
+            ['key' => 'WEB_FAVICON', 'value' => 'logo-akprind.png'],
+            ['key' => 'HERO_TEXT_HEADER', 'value' => 'Sistem Pengaduan Online Bullying di IST Akprind Yogyakarta'],
+            ['key' => 'HERO_TEXT_DESCRIPTION', 'value' => 'Membuka Suara: Mendorong Pelaporan Bullying dan Membangun Ruang Aman bagi Mahasiswa melalui Pendekatan Whistleblowing System dengan Website Setubully'],
+            ['key' => 'FOOTER_IMAGE', 'value' => 'logo-akprind.png'],
+            ['key' => 'FOOTER_TEXT_DASHBOARD', 'value' => 'IST AKPRIND YOGYAKARTA'],
+            ['key' => 'FOOTER_IMAGE_DASHBOARD', 'value' => 'logo-akprind.png'],
         ]);
     }
 }
