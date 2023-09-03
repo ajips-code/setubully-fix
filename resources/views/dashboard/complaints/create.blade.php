@@ -151,7 +151,7 @@
                                                             <label data-bs-toggle="tooltip"
                                                                 data-bs-original-title="Tempat kejadian berada di dalam sekolah"
                                                                 class="form-check-label form-label" for="place-in">
-                                                                Dalam sekolah
+                                                                Dalam kampus
                                                             </label>
                                                         </div>
                                                         <div class="form-check me-3">
@@ -161,7 +161,7 @@
                                                             <label data-bs-toggle="tooltip"
                                                                 data-bs-original-title="Tempat kejadian berada di luar sekolah"
                                                                 class="form-check-label form-label" for="place-out">
-                                                                Luar sekolah
+                                                                Luar kampus
                                                             </label>
                                                         </div>
                                                     </div>
