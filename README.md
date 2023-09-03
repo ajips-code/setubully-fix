@@ -7,13 +7,13 @@
 
 ---
 
-<h2 id="tentang">🤔 Apa itu Setubullu?</h2>
+<h2 id="tentang">🤔 Apa itu Setubully?</h2>
 
 Setubully adalah Sistem Pengaduan Online Bullying di IST Akprind Yogyakarta
 Membuka Suara: Mendorong Pelaporan Bullying dan Membangun Ruang Aman bagi Mahasiswa melalui Pendekatan Whistleblowing System dengan Website Setubully
 
 
-<h2 id="fitur">🤨 Fitur apa saja yang tersedia di Confess?</h2>
+<h2 id="fitur">🤨 Fitur apa saja yang tersedia di Setubully?</h2>
 
 -   [Mazer Bootstrap Template](https://github.com/zuramai/mazer)
     -   <i>Dark</i> dan <i>Light</i> mode
